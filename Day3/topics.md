@@ -1,0 +1,5 @@
+Contents:
+Introduction to Array
+Array and JSON iteration
+XMLHttpRequest
+Hoisting & scope
