@@ -1,0 +1,11 @@
+.header{
+    background-color: aqua;
+    width: auto;
+    height: auto;
+    color: darkgrey;
+    background-blend-mode:hard-light;
+    background-size: cover;
+    border:2px solid black;
+    border-radius: 20px;
+    padding:10px 10px 10px 10px ;
+}
