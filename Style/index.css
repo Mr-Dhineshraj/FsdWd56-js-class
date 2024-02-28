@@ -1,0 +1,45 @@
+body{
+    background-color: #E6ECEF;
+}
+
+.twitter{
+    
+    display:  grid;
+    justify-content: center;   
+
+}
+.Whitebox {
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+h1{
+    color: #2CAFF4;
+}
+textarea{
+border:3px solid #B5D9E8;
+border-radius: 15px;
+margin: 45px;
+width: 400px;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+textarea::placeholder{
+    margin-top: 10px;
+}
+
+p{
+    
+    color: #59A2CE;
+    position:absolute;
+    bottom: 20px;
+    right: 90px;
+    font-weight: bold;
+}

@@ -1,0 +1,37 @@
+const contain=document.createElement("div");
+const box=document.createElement('div');
+const heading=document.createElement("h1");
+const inputs=document.createElement("textarea");
+const para=document.createElement('p');
+
+
+contain.setAttribute('class','twitter');
+box.setAttribute('class','Whitebox');
+inputs.setAttribute("rows","5");
+inputs.setAttribute("cols","50");
+inputs.setAttribute("placeholder","Whats happening?");
+para.setAttribute('class','count');
+
+
+heading.innerHTML=`<strong>Twitter Inspired Character Counter</strong>`;
+para.innerText="you inserted characters";
+
+
+contain.appendChild(heading);
+contain.appendChild(box);
+box.appendChild(inputs);
+box.appendChild(para);
+
+document.body.appendChild(contain);
+
+inputs.addEventListener('input',()=>{
+    let message=event.target.value;
+    para.innerHTML=`you inserted characters <span id='wordcount'>${message.length}</span>`
+
+});
+
+
+
+
+
+
