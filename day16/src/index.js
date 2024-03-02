@@ -1,17 +1,23 @@
-console.log('hi')
-
-function String1(str){
-
-return str;
+function add(a,b){
+    return a+b;
 
 }
 
-function repeat(a){
-    return a;
+function sub(a,b){
+    return a-b;
 }
 
-function repeatStr(string,callback){
-
-    return callback(str);
+function multi(a,b){
+    return a*b;
 
 }
+function divide(a,b){
+    return a/b;
+}
+
+function calc(a,b,callback){
+    return callback(a,b)
+
+}
+
+console.log(calc(10,5,add))
