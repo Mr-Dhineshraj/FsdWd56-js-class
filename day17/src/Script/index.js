@@ -1,13 +1,21 @@
-let promise = new Promise((resolve, reject) => {
-    let randomNumber = Math.random() * 5;
-    if (randomNumber > 2.5) {
-        resolve(randomNumber);
-    } else {
-        reject(randomNumber);
-    }
-});
+new Promise((resolve,reject)=>{
+    console.log('Initial');
+ resolve();
+})
 
-promise.then(
-    (result) => console.log("promise was resolved"+result),
-    (result) => console.log("promise was rejected"+result)
-);
+.then(
+    ()=>{
+    console.log("resolved");
+})
+.catch(
+    ()=>{
+    console.log("rejected");
+})
+.then(()=>{
+    console.log("The third loop of ececution")
+    
+})
+
+.then (
+    ()=>console.log("The last thing ")
+)
