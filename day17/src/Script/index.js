@@ -12,10 +12,10 @@ new Promise((resolve,reject)=>{
     console.log("rejected");
 })
 .then(()=>{
-    console.log("The third loop of ececution")
+    console.log("The third loop of execution")
     
 })
 
 .then (
-    ()=>console.log("The last thing ")
+    ()=>console.log("The last thing")
 )
