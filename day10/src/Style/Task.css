@@ -1,0 +1,23 @@
+header{
+    text-align: center;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: green;
+}
+section{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+
+}
+footer{
+    background-color: blue;
+    color: white;
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+}
